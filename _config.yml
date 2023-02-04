@@ -10,19 +10,17 @@ exclude:
   - "/tools/"
 
 # Site settings
-title: Centrarium
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
-email: blcentra@gmail.com
-name: Ben Centra
-description: >
-  A simple yet classy theme for your Jekyll website or blog.
+title: Ted's World
+subtitle: "A personal space for ideas, thoughts and practical applications"
+email: hello@teds-stuff.xyz
+name: Ted K.
+# description: >
+#   A simple yet classy theme for your Jekyll website or blog.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-cover: "/assets/header_image.jpg"
-logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
@@ -77,40 +75,28 @@ descriptions:
 #     desc: Follow me on Twitter            # Description to display as link title, etc
 #     share: true                           # Include in the "Share" section of posts
 social:
-  - name: Twitter
-    icon: twitter
-    username: TheBenCentra
-    url: https://twitter.com/TheBenCentra
-    desc: Follow me on Twitter
-    share: true
-
-  - name: Facebook
-    icon: facebook
-    username: thebencentra
-    url: ""
-    desc: Friend me on Facebook
-    share: true
 
   - name: GitHub
     icon: github
-    username: bencentra
-    url: https://github.com/bencentra
+    username: t-kozak
+    url: https://github.com/t-kozak
     desc: Fork me on GitHub
     share: false
 
   - name: LinkedIn
     icon: linkedin
-    username: Ben Centra
-    url: https://www.linkedin.com/pub/ben-centra/47/769/60a
+    username: Ted Kozak
+    url: https://www.linkedin.com/in/tedkoz
     desc: Connect with me on LinkedIn
     share: true
 
-  - name: "Hacker News"
-    icon: hacker-news
-    username: ""
-    url: ""
-    desc: Share to Hacker News
-    share: false
+  - name: Mastodon
+    icon: mastodon
+    username: "@tedk@aus.social"
+    url: https://aus.social/@tedk
+    desc: Connect with me on Fediverse
+    share: true
+
 
 # Social sharing protocols
 # These are for automatically generating sharing metadata for FB and Twitter

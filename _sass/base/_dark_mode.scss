@@ -2,7 +2,8 @@ $base-background-color-dark: rgb(32, 30, 30);
 $base-font-color-dark: #fff;
 $action-color-dark: darken($action-color, 10%);
 $highlight-color-dark: darken($action-color, 10%);
-
+$base-border-color-dark: $dark-gray;
+$base-border-dark: 1px solid $base-border-color-dark;
 
 @media (prefers-color-scheme: dark) {
 	body {
@@ -39,10 +40,27 @@ $highlight-color-dark: darken($action-color, 10%);
 		background-color: $highlight-color-dark;
 	}
 
-	// An experiment
-	// img {
-	// 	filter: brightness(90%);
-	// }
+	fieldset {
+		background-color: lighten($base-border-color-dark, 10%);
+		border: $base-border-dark;
+	}
+
+	#{$all-text-inputs},
+	select[multiple=multiple],
+	textarea {
+		border: $base-border-dark;
+		box-shadow: $form-box-shadow;
+
+		&:hover {
+			border-color: darken($base-border-color-dark, 10%);
+		}
+
+		&:focus {
+			border-color: $action-color-dark;
+			box-shadow: $form-box-shadow-focus;
+		}
+	}
+
 }
 
 @media (prefers-color-scheme: light) {
@@ -80,6 +98,25 @@ $highlight-color-dark: darken($action-color, 10%);
 		background-color: $highlight-color;
 	}
 
+	fieldset {
+		background-color: lighten($base-border-color, 10%);
+		border: $base-border;
+	}
 
+	#{$all-text-inputs},
+	select[multiple=multiple],
+	textarea {
+		border: $base-border;
+		box-shadow: $form-box-shadow;
+
+		&:hover {
+			border-color: darken($base-border-color, 10%);
+		}
+
+		&:focus {
+			border-color: $action-color;
+			box-shadow: $form-box-shadow-focus;
+		}
+	}
 
 }

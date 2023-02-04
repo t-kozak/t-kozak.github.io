@@ -1,0 +1,44 @@
+@media (min-width: 310px) {
+    .img-header {
+        background-image: -webkit-image-set(url("/assets/header/mobile.webp") 1x, url("/assets/header/mobile@2.webp") 2x, url("/assets/header/mobile@3.webp") 3x, );
+        background-image: image-set(url("/assets/header/mobile.webp") 1x, url("/assets/header/mobile@2.webp") 2x, url("/assets/header/mobile@3.webp") 3x, );
+    }
+}
+
+@media (min-width: 1024px) {
+    .img-header {
+        background-image: -webkit-image-set(url("/assets/header/desktop.webp") 1x, url("/assets/header/desktop@2.webp") 2x, );
+        background-image: image-set(url("/assets/header/desktop.webp") 1x, url("/assets/header/desktop@2.webp") 2x, );
+    }
+}
+
+@mixin img($name) {
+    background-position: center;
+    background-image: -webkit-image-set(url("/assets/#{$name}/img.webp") 1x,
+    url("/assets/#{$name}/img@2.webp") 2x,
+    url("/assets/#{$name}/img@3.webp") 3x,
+    );
+    background-image: image-set(url("/assets/#{$name}/img.webp") 1x,
+    url("/assets/#{$name}/img@2.webp") 2x,
+    url("/assets/#{$name}/img@3.webp") 3x,
+    );
+}
+
+.img-logo {
+    width: 50px;
+    height: 50px;
+    // margin: 5px 2px 5px 2px;
+    border-radius: 30px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    @include img("ted-face");
+}
+
+.img-profile {
+    width: 320px;
+    height: 320px;
+    margin: 10px auto;
+    border-radius: 10px;
+    @include img("ted-face-big");
+}
