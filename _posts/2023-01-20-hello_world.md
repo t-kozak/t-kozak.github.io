@@ -3,7 +3,7 @@ layout: post
 title:  "Hello World!"
 date:   2020-01-18T14:25:52-05:00
 author: Ted K.
-categories: Meta
+categories: Other
 ---
 
 ```python
