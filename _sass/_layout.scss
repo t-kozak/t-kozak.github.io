@@ -113,7 +113,7 @@ pre code.hljs {
 *	Header
 */
 .navigation {
-	box-shadow: 0 2px $highlight-color;
+
 	padding: 0 1em;
 	margin: 0;
 	// Remove this to make header scrollable again
@@ -121,7 +121,6 @@ pre code.hljs {
 	top: 0;
 	left: 0;
 	right: 0;
-	background: $white;
 	z-index: 1;
 	/*
 	*	Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
@@ -257,7 +256,7 @@ pre code.hljs {
 	.site-header-container {
 		color: $white;
 		text-shadow: 0 2px 1px rgba(0,0,0,0.33);
-		background-color: $highlight-color;
+
 		.site-header{
 			.title {
 				font-size: modular-scale(6);
@@ -273,6 +272,7 @@ pre code.hljs {
 		margin: auto;
 		width: 90%;
 	}
+
 	/*
 	*	Posts
 	*/

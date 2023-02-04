@@ -1,3 +1,9 @@
+$base-background-color-dark: rgb(32, 30, 30);
+$base-font-color-dark: #fff;
+$action-color-dark: darken($action-color, 10%);
+$highlight-color-dark: darken($action-color, 10%);
+
+
 @media (prefers-color-scheme: dark) {
 	body {
 		color: $base-font-color-dark;
@@ -6,6 +12,7 @@
 
 	.navigation {
 		background: $base-background-color-dark;
+		box-shadow: 0 2px $highlight-color-dark;
 	}
 
 	#{$all-button-inputs},
@@ -28,6 +35,10 @@
 		}
 	}
 
+	.site-header-container {
+		background-color: $highlight-color-dark;
+	}
+
 	// An experiment
 	// img {
 	// 	filter: brightness(90%);
@@ -42,6 +53,7 @@
 
 	.navigation {
 		background: $base-background-color;
+		box-shadow: 0 2px $highlight-color;
 	}
 
 	#{$all-button-inputs},
@@ -63,6 +75,11 @@
 
 		}
 	}
+
+	.site-header-container {
+		background-color: $highlight-color;
+	}
+
 
 
 }
