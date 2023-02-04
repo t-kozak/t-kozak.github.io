@@ -29,6 +29,7 @@ $white: #fff;
 // Flat UI Colors. For more, see http://flatuicolors.com/
 $turquoise: #1abc9c;	// Turqoise
 $green: #27ae60;	  	// Nephritis
+$dark-green: #396c4e;	  	// Nephritis
 $blue: #2980b9;				// Belize Hole
 $purple: #8e44ad;			// Wisteria
 $orange: #d35400;			// Pumpkin
@@ -40,8 +41,13 @@ $bc-red: #bc0000;
 // Font Colors
 $base-background-color: #fff;
 $base-font-color: $dark-gray;
-$action-color: $blue;
+$action-color: $green;
 $highlight-color: tint($action-color, 33%);
+
+$base-background-color-dark: rgb(32, 30, 30);
+$base-font-color-dark: #fff;
+$action-color-dark: darken($action-color, 20%);
+$highlight-color-dark: darken($action-color, 20%);
 
 // Border
 $base-border-color: $light-gray;

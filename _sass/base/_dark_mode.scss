@@ -1,0 +1,68 @@
+@media (prefers-color-scheme: dark) {
+	body {
+		color: $base-font-color-dark;
+		background-color: $base-background-color-dark;
+	}
+
+	.navigation {
+		background: $base-background-color-dark;
+	}
+
+	#{$all-button-inputs},
+	button {
+		background-color: $action-color-dark;
+	}
+
+	.site-footer {
+		background-color: $highlight-color-dark;
+	}
+
+	a {
+		color: $action-color-dark;
+
+		&:active,
+		&:focus,
+		&:hover {
+			color: darken($action-color-dark, 10%);
+
+		}
+	}
+
+	// An experiment
+	// img {
+	// 	filter: brightness(90%);
+	// }
+}
+
+@media (prefers-color-scheme: light) {
+	body {
+		color: $base-font-color ;
+		background-color: $base-background-color ;
+	}
+
+	.navigation {
+		background: $base-background-color;
+	}
+
+	#{$all-button-inputs},
+	button {
+		background-color: $action-color;
+	}
+
+	.site-footer {
+		background-color: $highlight-color;
+	}
+
+	a {
+		color: $action-color;
+
+		&:active,
+		&:focus,
+		&:hover {
+			color: darken($action-color, 10%);
+
+		}
+	}
+
+
+}

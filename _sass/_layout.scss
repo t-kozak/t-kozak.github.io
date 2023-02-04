@@ -374,7 +374,6 @@ pre code.hljs {
 .site-footer {
 	$link-color: $white;
 	padding: 1em 1em 2em 1em;
-	background-color: $highlight-color;
 	color: $white;
 	a {
 	  color: $link-color;
@@ -390,9 +389,6 @@ pre code.hljs {
 	}
 	.wrapper {
 		@include outer-container;
-	}
-	.footer-heading {
-
 	}
 	/*
 	*	Site Navigation (left)
