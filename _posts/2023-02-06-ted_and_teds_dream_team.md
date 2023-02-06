@@ -1,15 +1,14 @@
 ---
 layout: post
-title:  "Ted and Ted's dream team of robots"
+title:  "Ted and Ted's dream team... of robots"
 date:   2022-01-31T14:25:52-05:00
 author: Ted K.
 categories: Software
-voiceover_url: https://www.podbean.com/player-v2/?i=rnhn4-137b66c-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7
 summary: |
   A short story on how state of the art AI tools can be employed by a human
   to advance their content creation game. The well known ChatGPT as well as some
   less known platforms are showcased here.
-cover: /assets/posts/dream_team/exmachina.webp
+cover: /assets/posts/dream_team/exmachina.jpg
 ---
 
 
