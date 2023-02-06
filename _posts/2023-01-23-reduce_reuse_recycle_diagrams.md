@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reduce, Reuse, Recycle: Diagramming Edition"
-date:   2020-01-18T14:25:52-05:00
+date:   2023-01-23T14:25:52-05:00
 author: Ted K.
 categories: Software Design
 ---
