@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ted and Ted's dream team... of robots"
-date:   2022-01-31T14:25:52-05:00
+date:   2022-02-06T14:21:52-05:00
 author: Ted K.
 categories: Software
 summary: |
