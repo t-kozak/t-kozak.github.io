@@ -4,20 +4,38 @@ title:  "Ted and Ted's dream team of robots"
 date:   2022-01-31T14:25:52-05:00
 author: Ted K.
 categories: Software
+voiceover_url: https://www.podbean.com/player-v2/?i=rnhn4-137b66c-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7
+summary: |
+  A short story on how state of the art AI tools can be employed by a human
+  to advance their content creation game. The well known ChatGPT as well as some
+  less known platforms are showcased here.
+cover: /assets/posts/dream_team/exmachina.webp
 ---
 
-<iframe title="Ted and Ted’s dream team of robots" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=rnhn4-137b66c-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7"></iframe>
+
+<div>
+<figure>
+  <img src="{{site.url}}/assets/posts/dream_team/exmachina.webp" alt="A screenshot from the movie 'Ex Machina'. Android in the back and silhouette of human the front"/>
+  <figcaption>©️Universal Pictures</figcaption>
+</figure>
+</div>
+
 
 I've been living my best life as a software person for the past two years. After years of managing people at Snap, I was itching to build something again. I knew that just writing software won't be enough. I had to up my content game to avoid becoming another failed tech founder who can't market their way out of a paper bag. I decided to learn to sell myself, and what better way to do that than by starting a blog?
 
 So here I am, ready to take on the world of content creation like a pro in 2023. And you know what's gonna make that happen? AI-powered content creation, baby! I'm excited to dive deeper into this topic and share my findings with all of you. Who knows, I'll even make the AI write this blog for me, and I can finally take a break.
 
-Let's make it happen!
+You can listen to the voice over of this story below.
+
+<iframe title="Ted and Ted’s dream team of robots" allowtransparency="true" height="150" width="100%" style="border: none; min-width: min(100%, 430px);" scrolling="no" data-name="pb-iframe-player" src="https://www.podbean.com/player-v2/?i=rnhn4-137b66c-pb&from=pb6admin&share=1&download=1&rtl=0&fonts=Arial&skin=1&font-color=auto&logo_link=episode_page&btn-skin=7"></iframe>
+
 
 ### Goals
 What are we aiming to achieve with this blog post? First and foremost, we want to create a meta blog post that dives into the world of using publicly available state-of-the-art AI tools to create blog posts. By the end of this post, you'll have a solid understanding of the different tools available and how to use them effectively.
 
 But wait, there's more! We'll also create a podcast with a voiceover of this blog post. Because, let's be honest, sometimes reading ain't for everyone. So, for those of you who are more auditory learners, this podcast will be perfect for you.
+
+
 
 ### The Actors
 When it comes to creating high-quality content, it's all about having the right tools at your disposal. That's why, for this blog post, we'll introduce a few different AI platforms to help us create the best possible content.
@@ -67,3 +85,9 @@ Overall, I had a great time working on this project, and I look forward to conti
 
 Best regards,
 Ted.
+
+------
+
+#### ChatGPT session transcript below.
+
+{% include ted_and_team_chat.html %}
