@@ -13,14 +13,6 @@ cover: /assets/posts/dream_team/exmachina.webp
 ---
 
 
-<div>
-<figure>
-  <img src="{{site.url}}/assets/posts/dream_team/exmachina.webp" alt="A screenshot from the movie 'Ex Machina'. Android in the back and silhouette of human the front"/>
-  <figcaption>©️Universal Pictures</figcaption>
-</figure>
-</div>
-
-
 I've been living my best life as a software person for the past two years. After years of managing people at Snap, I was itching to build something again. I knew that just writing software won't be enough. I had to up my content game to avoid becoming another failed tech founder who can't market their way out of a paper bag. I decided to learn to sell myself, and what better way to do that than by starting a blog?
 
 So here I am, ready to take on the world of content creation like a pro in 2023. And you know what's gonna make that happen? AI-powered content creation, baby! I'm excited to dive deeper into this topic and share my findings with all of you. Who knows, I'll even make the AI write this blog for me, and I can finally take a break.
@@ -83,10 +75,16 @@ The experience of using ElevenLabs Speech Synthesis to create a podcast was also
 
 Overall, I had a great time working on this project, and I look forward to continuing to work with these AI systems in the future. Until next time, thanks for reading!
 
-Best regards,
-Ted.
+<p>Best regards,<br/>
+Ted.</p>
 
-------
+<div>
+<figure>
+  <img src="{{site.url}}/assets/posts/dream_team/exmachina.webp" alt="A screenshot from the movie 'Ex Machina'. Android in the back and silhouette of human the front"/>
+  <figcaption>Screenshot from "Ex Machina" ©️Universal Pictures</figcaption>
+</figure>
+</div>
+
 
 #### ChatGPT session transcript below.
 
