@@ -6,30 +6,75 @@ author: Ted K.
 categories: Software
 ---
 
-In today's digital age, having an engaging and visually appealing website is crucial for your online presence. 
-One popular trend is the use of full-viewport video backgrounds on landing pages. 
+In digital age, having an engaging and visually appealing website is crucial for your online presence. 
+Nowadays, with the rise of video content everywhere, visially appealing means having video content of some 
+sorts.
 
-This blog post is aimed at small-scale tech founders and front-end engineers interested in learning how to 
-create captivating video backgrounds for their websites.
+This post will cover that very subject the why and how to include a video as a medium on your landing page. 
+Specifically, we'll show how to achieve a full viewport (full page) background videos in a sensible way from
+the human interface, network performance and portability perspectives.
 
-A demo page showcasing this technique can be found on 
-[GitHub](https://github.com/t-kozak/video_background_sample). You can quickly preview it 
-[here](https://world.teds-stuff.xyz/video_background_sample/). 
+If you are a marketing person, startup founder or in simillar work - this is for you. Check the 
+[demo](https://world.teds-stuff.xyz/video_background_sample/) to see if you like it and ask your front-end gal
+to make it happen.
 
-If you're a "show me the code" type of a person you may stop reading now, go straight to the repo and anlyse 
-it from there.
+If you are that front end gal - this post is for you as well as it talks about the technical details on how to
+implement this technique in an efficient and portable way. Although, you may want to go straight to the [GitHub repo](https://github.com/t-kozak/video_background_sample).
 
-## Intro
 
-As we've been working on redesigning our landing page for our new product, FoodiePractice, we realised 
-the importance of leveraging video as a powerful storytelling tool. In 2023, video is the king of content, and
-using visuals to tell your brand's story is no longer a luxury — it's a necessity.
+## Why video background? 
 
-In line with our development philosophy of keeping things simple, our website is statically generated using 
-Jekyll and hosted on the Google Cloud Platform. While we could have used website generators like SquareSpace 
-or Wix, they were deemed too slow, and our inner engineer preferred a more hands-on approach. However, having
-no server-side processing presents challenges when optimising full-screen videos for various platforms, screen
-orientations, and supported video codecs.
+if "a picture is worth a thousand words<sup><a href="#references">1</a></sup>", then a video clip is worth `1k * FPS * duration` words! 
+
+Jokes aside video content is great at captivating your audience. The large scale video backgrounds can help 
+you elicit the emotion that you want people to feel to associate with your brand. Yes, you can total achieve
+similar results with staic images, videos are just that bit better (opinion).
+
+Additionally, since digital presence is a standard, adding some more video content to your website can elevate
+your brand that bit above the average, above the baseline. It may not matter for a high tech entities from 
+which that level of technical excellence is expected, but the your for your local honey manufacturer nice 
+touches like these can have a significant impact on brand perception.
+
+Finally, a video background can give your website that extra wow! factor cheaper than with other means like
+animations or dynamic HTML/JS/CSS components. Due to the prevailance of video content, finding right stock 
+footage or even social media content can be easier and cheaper than the investemnt in an artist's time. 
+
+## Why not?
+
+I can identify a few potential problems with the use of the video backgrounds. 
+
+The first issue the comes to my mind is simply an extra effort required. The media assets have to be created
+and then transcoded to web-optimised formats. Ideally you want to create 2 variants of the content one 
+optimised for portrait and the other for landscape orientations. It just adds up.
+
+Then, there is the problem with the extra bandwidth. It's not a surprise that video files are heavier 
+than static images. This can affect the experience of people opening your webpage as well as your 
+operational
+costs through higher bandwidth bill. That being said, the size of the video assets is something you have a 
+full control over and it is possible to find that sweet spot perceived quality of the media and the assets 
+size. Additionally, with the use of modern video codecs (more below) and potentially some clever 
+application of blurring and darkening, this can be mitigated.
+
+## What's in store for me?
+
+Through this "editorial piece", we'll demostrate how to create the following website:
+
+<video muted loop playsinline autoplay width="222" style="margin: 10px auto;"
+        poster="{{ site.baseurl }}/assets/posts/html5vid/webpage.webp">
+        <source src="{{ site.baseurl }}/assets/posts/html5vid/webpage_hevc.mp4"
+          type='video/mp4; codecs="hvc1"' />
+        <source src="{{ site.baseurl }}/assets/posts/html5vid/webpage_vp9.webm"
+        type="video/webm" />
+        <source src="{{ site.baseurl }}/assets/posts/html5vid/webpage_avc.mp4" 
+        type="video/mp4" />
+</video>
+
+From technology perspective, the solution offers following features:
+- separate videos for portrait and lanscape orientation. For devices with screen aspect ratio higher 
+  than 1.0 a portrait videos will be used. For smaller or equal - a portrait
+- three video formats for each orientation - HEVC, VP9 and AVC
+- delayed loading of videos to give the browser enough time to fetch other content before the heavy videos
+- dynamically selected poster, again for portrait and landscape orientations
 
 ## Content Preparation
 
@@ -355,3 +400,9 @@ window.setTimeout(loadVids, 500)
 
 I hope you enjoyed learning about HTML video backgrounds, and encourage you to check out our website where 
 this method was applied: [FoodieApp](https://yourfoodie.app). Happy coding!
+
+
+--------
+
+#### References
+1. [A picture is worth a thousand words. 2023, March 17. In Wikipedia.](https://en.wikipedia.org/wiki/A_picture_is_worth_a_thousand_words)
