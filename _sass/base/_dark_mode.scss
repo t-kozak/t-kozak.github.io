@@ -61,6 +61,11 @@ $base-border-dark: 1px solid $base-border-color-dark;
 		}
 	}
 
+	code {
+		background-color: #010101;
+	}
+	
+
 }
 
 @media (prefers-color-scheme: light) {
@@ -119,4 +124,7 @@ $base-border-dark: 1px solid $base-border-color-dark;
 		}
 	}
 
+	code {
+		background-color: #eee;	
+	}
 }
