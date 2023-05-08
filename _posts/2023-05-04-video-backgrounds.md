@@ -4,6 +4,7 @@ title:  "HTML5 Video backgrounds"
 date:   2023-05-03T17:25:52-05:00
 author: Ted K.
 categories: Software
+cover: /assets/posts/html5vid/desktop.png
 ---
 
 ![text](/assets/posts/html5vid/desktop.webp "a title")
