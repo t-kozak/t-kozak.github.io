@@ -3,7 +3,7 @@ layout: post
 title:  "Ted and Ted's dream team... of robots"
 date:   2023-02-05T14:21:52-05:00
 author: Ted K.
-categories: Software
+categories: Software, Machine Learning
 summary: |
   A short story on how state of the art AI tools can be employed by a human
   to advance their content creation game. The well known ChatGPT as well as some
