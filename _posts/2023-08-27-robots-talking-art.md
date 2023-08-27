@@ -61,8 +61,8 @@ Probably the most valuable takeaway for me is the personal experience of the bia
 <a href="https://photography.teds-stuff.xyz/Personal/AI-Talks-Art/n-4R6jDq/i-GPXW2s6/A"><img src="https://photos.smugmug.com/photos/i-GPXW2s6/0/4ec10cba/L/i-GPXW2s6-L.jpg" alt=""></a>
 
 One of the photos depicts a hopping kangaroo. Where you see a 'roo, the machine sees zebras or hyenas... 
-In another one, there is a bunch of termite molds. Where you see termite mold, AI sees a herd of 
-elephants. Suffice it to say, the models I've been interrogating, never saw a kangaroo or termite mold in 
+In another one, there is a bunch of termite mounds. Where you see termite mound, AI sees a herd of 
+elephants. Suffice it to say, the models I've been interrogating, never saw a kangaroo or termite mound in 
 their "life" and it shows. 
 
 This was the first direct experience for me of a problem I've only heard of before - the implicit biases that
@@ -119,8 +119,8 @@ Talking points
   MacBook Pro. Sure M2 MBP is a beast, but still... I fully expected to need to buy some GPU of Google Cloud Platform.
 - Third and probably most profound is the personal experience of bias of the models. In one of the photos, there
   is a hopping kangaroo. Where you may see a 'roo, the machine sees zebras or hyenas. In another one, there is
-  a bunch of termite molds. Where you see termite mold, AI sees a herd of elephants. Suffice it to say, the models
-  I've been interrogating never saw a kangaroo or termite mold in their "life". That prompted me to wonder if the job of a librarian of the future is curating ML models to make sure that the collective knowledge and experience of a given country (society) is well represented and understood in the digital world.
+  a bunch of termite mounds. Where you see termite mound, AI sees a herd of elephants. Suffice it to say, the models
+  I've been interrogating never saw a kangaroo or termite mound in their "life". That prompted me to wonder if the job of a librarian of the future is curating ML models to make sure that the collective knowledge and experience of a given country (society) is well represented and understood in the digital world.
 
 
 {% endcomment %}
