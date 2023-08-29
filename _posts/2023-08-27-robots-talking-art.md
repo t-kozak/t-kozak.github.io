@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Robots Talks Art"
+title:  "Robots Talk Art"
 date:   2023-08-27T12:25:52+10:00
 author: Ted K.
 categories: Software Photography ML
@@ -61,7 +61,7 @@ Probably the most valuable takeaway for me is the personal experience of the bia
 <a href="https://photography.teds-stuff.xyz/Personal/AI-Talks-Art/n-4R6jDq/i-GPXW2s6/A"><img src="https://photos.smugmug.com/photos/i-GPXW2s6/0/4ec10cba/L/i-GPXW2s6-L.jpg" alt=""></a>
 
 One of the photos depicts a hopping kangaroo. Where you see a 'roo, the machine sees zebras or hyenas... 
-In another one, there is a bunch of termite mounds. Where you see termite mound, AI sees a herd of 
+In another one, there is a bunch of termite mounds. Where you see termite mounds, AI sees a herd of 
 elephants. Suffice it to say, the models I've been interrogating, never saw a kangaroo or termite mound in 
 their "life" and it shows. 
 
