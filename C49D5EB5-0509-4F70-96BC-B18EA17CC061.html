@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ig's Treasure Hunt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jsqr@1.3.1/dist/jsQR.min.js"></script>
+    <style>
+        #videoContainer, #scanButton {
+            width: 320px;
+            height: 320px;
+        }
+
+        #video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Ig's Treasure Hunt</h1>
+
+    <p class="lead text-center mb-4">
+        Enter the secret code or scan a QR code to reveal hidden content. Good luck!
+    </p>
+
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-6 col-lg-4 mb-3 mb-md-0">
+            <div id="scanButton" class="d-flex justify-content-center align-items-center border">
+                <button class="btn btn-primary" id="startScan">Scan QR Code</button>
+            </div>
+            <div id="videoContainer" class="d-none">
+                <video id="video"></video>
+                <canvas id="canvas" class="d-none"></canvas>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="input-group mb-3">
+                <label for="secretCode"></label><br/>
+                <input type="text" id="secretCode" class="form-control"
+                       placeholder="Enter the secret code">
+                <button class="btn btn-primary" type="button" id="submitButton">Submit</button>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="contentPlaceholder" class="border container padding-5" style="min-height: 200px;">
+        [Content will appear here when you enter the correct code or scan a valid QR code.]
+    </div>
+    <!--    <div id="logPlaceholder" class="border container padding-5" style="min-height: 30px;">-->
+    <!--        [Content will appear here when you enter the correct code or scan a valid QR code.]-->
+    <!--    </div>-->
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/iggy-run/contentMap.js"></script>
+<script src="/assets/iggy-run/ig-run.js"></script>
+</body>
+</html>
