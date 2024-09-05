@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>Welcome adventurer. The code you're seeking is 602. I repeat, that's</Say>
+    <Pause/>
+    <Say>6</Say>
+    <Pause/>
+    <Say>0</Say>
+    <Pause/>
+    <Say>2</Say>
+    <Pause/>
+    <Say>Good luck!</Say>
+</Response>
