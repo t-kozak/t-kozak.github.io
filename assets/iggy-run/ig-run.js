@@ -24,8 +24,8 @@ async function processCode(code) {
     const hashedCode = await sha256(code + salt);
     console.log("Stuff to hash: " + code + salt)
     console.log("Got hash: " + hashedCode)
-    if (contentMap.hasOwnProperty(hashedCode)) {
-        let encrypted = contentMap[hashedCode]
+    if (contentMap2.hasOwnProperty(hashedCode)) {
+        let encrypted = contentMap2[hashedCode]
         console.log("Decrypting: " + encrypted)
         document.getElementById('contentPlaceholder').innerHTML = await decryptContent(code, encrypted);
     } else {
